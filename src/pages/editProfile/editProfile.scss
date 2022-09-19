@@ -1,0 +1,63 @@
+#profile > .container > .row > .col-md-4 > .row > .col > p {
+	font-size: 17px;
+}
+#profile > .container > .row > .col-md-4 > .row > .circle {
+	display: flex;
+	justify-content: center;
+}
+#profile > .container > .row > .col-md-4 > .row > .col > .circle {
+	border: 1px solid;
+	height: 84px;
+	width: 84px;
+	border-radius: 50%;
+	margin-bottom: 2rem;
+}
+#profile > .container > .row > .col-md-4 > .row > .col > h4 {
+	color: #5787fa;
+	font-size: 22px;
+	font-family: poppins;
+}
+#profile > .container > .row > .col-md-4 > .row > .col > h4 > span {
+	display: inline-block;
+}
+#profile > .container > .row > .col-md-4 > .row > .col > h5 {
+	font-size: 17px;
+	color: #565656;
+}
+#profile > .container > .row > .col-md-4 > .row > .buttons {
+	display: flex;
+	justify-content: center;
+}
+#profile > .container > .row > .col-md-4 > .row > .buttons > .btn {
+	width: 70%;
+}
+#profile > .container > .row > .col-md-4 > .row > .buttons > .btn-primary {
+	background-color: #5787fa;
+}
+#profile > .container > .row > .col-md-4 > .row > .buttons > .btn-light {
+	border: 1px solid #c9c9c9;
+}
+
+#profile .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+	margin-left: 0px;
+}
+#model{
+	margin-left: 2rem;
+	height: auto;
+	width: 60%;
+	box-shadow: 1px 1px 6px #888888;
+	padding: 1rem;
+	display: none;
+
+	
+}
+#components-dropdown-demo-dropdown-button{
+	margin-bottom: 1rem;
+}
+button.model{
+	width: 15rem;
+	text-align: left;
+}
+.ant-btn > .anticon + span, .ant-btn > span + .anticon{
+	margin-left: 75%;
+}

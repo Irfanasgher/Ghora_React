@@ -1,0 +1,49 @@
+#signup {
+	width: 100%;
+	height: auto;
+	background-color: #5787fa;
+	// padding: 80px 100px;
+
+	.box {
+		background-color: white;
+		width: 100%;
+		height: auto;
+		padding: 50px 80px;
+
+		.col-md-2 {
+			.line {
+				width: 1px !important;
+				height: 100%;
+				background-color: #5787fa;
+				margin-left: calc(50% - 1px);
+			}
+		}
+	}
+	svg {
+		vertical-align: text-top;
+	}
+	.ant-form-item {
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width: 450px) {
+	#login {
+		padding: 20px 25px;
+
+		.box {
+			padding: 15px 35px;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	#login {
+		height: 120vh;
+		padding: 15px 20px;
+
+		.box {
+			padding: 10px 20px;
+		}
+	}
+}
